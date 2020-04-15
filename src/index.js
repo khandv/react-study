@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/app/';
 
-class WhoAmi extends Component {
+class WhoAmi extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
