@@ -1,9 +1,7 @@
-function my_function(n) {
-    if (n === 1) {
-        return 1;             
-    } else {
-        return `${my_function(n-1)} ${n}`;      
-    }
+function testMath(a, b) {
+    return Math.pow(a, b);
 }
 
-console.log(my_function(9));
+console.log(testMath(5, 3));
+
+//Выведет на экран следующий результат: Mon May 22 2017 11:11:00 GMT+0300 (RTZ 2 (зима))
